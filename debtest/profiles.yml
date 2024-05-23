@@ -1,0 +1,14 @@
+my_snowflake_profile:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "jk53082.eu-west-3.aws"
+      user: "dbt"
+      password: "dbtPassword123"
+      role: "ACCOUNTADMIN"
+      database: "SNOW_DBT"
+      warehouse: "COMPUTE_WH"
+      schema: "DEV"
+      threads: 1
+      client_session_keep_alive: False
