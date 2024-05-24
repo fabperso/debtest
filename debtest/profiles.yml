@@ -1,5 +1,5 @@
 my_snowflake_profile:
-  target: dev
+  target: DEV
   outputs:
     dev:
       type: snowflake
